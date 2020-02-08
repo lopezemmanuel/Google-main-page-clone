@@ -1,0 +1,214 @@
+/* GENERALES */
+
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* HEADER - NAV */
+
+header{
+    width: 100%;
+    height: 60px;
+}
+
+header nav{
+    display: flex;
+    justify-content: flex-end;
+}
+
+header nav .nav-right-section{
+    width: 250px;
+    height: inherit;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
+
+nav .nav-right-section a{
+    margin-right: 10px;
+    color: #000000;
+}
+
+nav .nav-right-section .menu-icon{
+    background-image: url('https://static.thenounproject.com/png/756729-200.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    cursor: pointer;
+    width: 25px;
+    height: 25px;
+}
+
+nav .nav-right-section img{
+    border-radius: 50%;
+    margin-left: 10px;
+}
+
+/* MAIN & LOGO*/
+
+main{
+    margin-top: 140px;
+    text-align: center;
+}
+
+
+main .main-logo{
+    width: 530px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+}
+
+/* MAIN - INPUT */
+
+main .main-input{
+    width: 530px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+}
+
+main .main-input-container{
+    width: 525px;
+    border-radius: 100px;
+    border: 1px solid #DFE1E5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .main-input-container:hover{
+    box-shadow: 0 1px 6px 0 #20212447;
+    border-color: #DFE1E500;
+}
+
+main .main-input-container input{
+    width: 450px;
+    height: 40px;
+    border: none;
+    outline: none;
+}
+
+main .main-input .search-icon{
+    background-image: url('https://www.netclipart.com/pp/m/29-290129_computer-icons-google-search-clip-art-transprent-.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 18px;
+    height: 18px;
+    margin: 0 10px;
+}
+
+main .main-input .micro-icon{
+    background-image: url('https://www.searchpng.com/wp-content/uploads/2019/02/Voice-Search-Icon-PNG-715x715.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+    margin: 0 10px;
+}
+
+/*  MAIN - BUTTONS */
+
+main .main-buttons{
+    width: 530px;
+    margin: 0 auto;
+}
+
+main .main-buttons div{
+    display: inline-block;
+}
+
+main .main-buttons button{
+    height: 36px;
+    background-color: #F2F2F2;
+    border: 1px solid transparent;
+    font-size: 14px;
+    color: #5F6368;
+    border-radius: 5px;
+    padding: 0 16px;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+main .main-buttons button:hover{
+    border: 1px solid #C6C6C6;
+    box-shadow: 0 1px 1px #0000001A;
+    color: #222222;
+}
+
+
+
+/* FOOTER */
+
+footer{
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    bottom: 0;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+
+footer .footer-top{
+    width: inherit;
+    height: 48px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    border-top:1px solid #E4E4E4;
+    background-color: #F2F2F2;
+}
+
+footer .footer-top-left{
+    justify-self: left;
+}
+
+footer .footer-top-right{
+    justify-self: right;
+}
+
+footer .footer-top a{
+    margin: 20px;
+    color: #5F6368;
+    text-decoration: none;
+}
+
+footer .footer-bottom{
+    width: inherit;
+    height: 48px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    border-top:1px solid #E4E4E4;
+    background-color: #F2F2F2;
+}
+
+footer ul{
+    margin: 10px;
+    list-style: none;
+    display: flex;
+    padding-left: 0;
+}
+
+footer .footer-left{
+    justify-self: left;
+}
+
+footer .footer-right{
+    justify-self: right;
+}
+
+footer ul li a{
+    margin: 10px;
+    color: #5F6368;
+}
